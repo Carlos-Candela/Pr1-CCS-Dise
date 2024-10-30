@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: rgb(0, 0, 25);
+  text-align: center;
+}
+
+.content {
+  font-family: Helvetica, Arial, sans-serif;
+  max-width: 80%;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: rgb(0, 0, 25);
+  text-align: center;
+}
+nav h1 {
+  font-size: 3em;
+  margin-bottom: 0px;
+  color: rgb(240, 93, 80);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav {
+  margin-top: auto;
+  margin-bottom: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav a {
+  color: rgb(0, 0, 25);
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgba(0, 0, 25, 0.5);
+}
+
+nav a.active {
+  font-weight: 700;
+  font-style: oblique;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+header p {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+cite {
+  font-style: normal;
+  font-size: 1.3em;
+  color: #555;
+  color: black;
+}
+div cite {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-size: 0.9em;
+}
+time {
+  font-size: 0.7em;
+}
+figcaption {
+  font-size: 0.6em;
+}
+em {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+iframe {
+  border: 0;
+}
+.video {
+  margin-top: 30px;
+  height: 260px;
+}
+
+.photo_text {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 620px;
+  font-weight: bold;
+}
+
+.subtitle,
+.author,
+.date,
+.source {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #555;
+  max-width: 50%;
+}
+.content img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+.content iframe {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  max-height: 100%;
+  width: 450px;
+  height: 250px;
+}
+.content p,
+h2 {
+  color: rgb(0, 0, 25);
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content p .subtitle {
+  text-align: center;
+}
+blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(0, 0, 25);
+  font-style: italic;
+  margin: 20px;
+  padding-left: 20px;
+}
+
+blockquote figcaption {
+  text-align: left;
+}
+
+a {
+  color: rgb(240, 93, 80);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(240, 93, 80, 0.5);
+}
+.finally {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+.footer {
+  width: 100%;
+  background-color: rgb(0, 0, 25);
+  color: rgb(203, 202, 202);
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  font-size: small;
+  margin-top: 20px;
+}
+.fuente {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.def_title {
+  font-size: 0.6em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.listado-premios {
+  width: 30%;
+  text-align: left;
+}
+section {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-top: 1em;
+  gap: 0em;
+}
+h3 {
+  color: rgb(108, 108, 108);
+}
+li {
+  color: rgb(108, 108, 108);
+  margin-left: 50px;
+}
+.idioma {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: rgb(108, 108, 108);
+}
+
+.name {
+  color: rgb(240, 93, 80);
+}
+
+.motivacion-premios {
+  width: 60%;
+  text-align: left;
+}
+
+.no-bullets {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  padding: 10px;
+}
+.nombre {
+  color: black;
+}
+.motivacion-premios li strong {
+  color: rgb(164, 164, 164);
+}
+dd {
+  font-size: 0.6em;
+}
+.cita {
+  text-align: left;
+}
